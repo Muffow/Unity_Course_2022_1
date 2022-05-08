@@ -4,11 +4,11 @@ using UnityEngine;
 
 public class MovePlayer : MonoBehaviour
 {
-    [SerializeField] private float speed = 12f;
-    private float horizontalInput;
-    private float verticalInput;
-    private float zRange = 4;
-    private float xRange = 4;
+    [SerializeField] private float _speed = 12f;
+    [SerializeField] private float _horizontalInput;
+    [SerializeField] private float _verticalInput;
+    [SerializeField] private float _zRange = 4;
+    [SerializeField] private float _xRange = 4;
 
     // Start is called before the first frame update
     void Start()
